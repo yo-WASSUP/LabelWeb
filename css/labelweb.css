@@ -1,0 +1,181 @@
+.WebTitle {
+  background-color: #e9ebfe;
+  color: #8470ff;
+  line-height: 50%;
+  padding: 5px;
+}
+
+.WebTitle h1 {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.WebTitle h6 {
+  text-align: right;
+  color: black;
+  white-space: pre;
+  margin: 0 auto;
+  padding: 0px 3px 5px 0px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #cce8cf;
+  padding: 0px 15px 0px 15px;
+  width: 1280px;
+}
+
+.LabelBox {
+  display: flex;
+}
+
+.ImBox {
+  flex: 3;
+  color: red;
+  text-align: center;
+  background-color: #faf9de;
+  padding: 0px 30px 10px 30px;
+}
+
+.Imcanvas {
+  display: block;
+  padding: 0px 0px 20px 0px;
+}
+
+.CateBox {
+  flex: 1;
+  color: green;
+  padding: 0px 0px 0px 30px;
+  background-color: #fde6e0;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  color: blue;
+}
+
+.Label {
+  padding: 0px 0px 20px 0px;
+}
+
+button {
+  padding: 5px;
+  width: 120px;
+}
+
+#imageNameDisplay {
+  font-size: 24px; /* 设置文字大小为24px，您可以根据需要调整 */
+  color: black; /* 设置文字颜色为黑色 */
+  text-align: center; /* 使文字居中显示 */
+  margin-top: 10px; /* 在图片和文字之间添加��间距 */
+}
+
+#jsonFolderInput {
+  display: none; /* 隐藏原始输入框 */
+}
+
+/* 主要按钮样式 */
+.btn-primary {
+  background-color: #8470ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #6a5acd;
+}
+
+/* 次要按钮样式 */
+.btn-secondary {
+  background-color: #e9ebfe;
+  color: #8470ff;
+  border: 1px solid #8470ff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #d1d4f9;
+}
+
+/* 文件输入标签样式 */
+.file-input-label {
+  display: inline-block;
+  background-color: #e9ebfe;
+  color: #8470ff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #8470ff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+  width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.file-input-label:hover {
+  background-color: #d1d4f9;
+}
+
+/* 控制按钮样式 */
+.control-button {
+  margin: 5px;
+  min-width: 180px;
+  white-space: nowrap;
+}
+
+/* 宽按钮样式 */
+.btn-wide {
+  min-width: 200px;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+/* 按钮容器样式 */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.instructions {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.instructions h2 {
+  color: #8470ff;
+  margin-bottom: 15px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.instructions ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.instructions strong {
+  color: #6a5acd;
+}
