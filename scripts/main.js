@@ -193,7 +193,7 @@ document.getElementById("saveAllAnnotations").onclick = function () {
     zip.file(file.name, file.data);
   });
 
-  // 生成ZIP文件并提供给用户下载
+  // 生成ZIP文件并提���给用户下载
   zip.generateAsync({ type: "blob" }).then(function (content) {
     saveAs(content, "annotations.zip");
   });
@@ -277,7 +277,7 @@ canvas.onmousemove = function (e) {
   ctx.clearRect(0, 0, canW, canH);
   show_image(image); // 假设这是显示图像的函数
 
-  // ��制十字虚线
+  // 制十字虚线
   ctx.setLineDash([1, 1]); // 设置虚线样式
   ctx.strokeStyle = "black"; // 设置虚线颜色
   ctx.beginPath();
@@ -320,7 +320,7 @@ imgsUploader.onchange = function (e) {
   updateImageList(); // 新增这一行
 };
 
-// 新增一个函数来更新图片名列表
+// 新增一个函数来更新图片列表
 function updateImageList() {
   var imageListDiv = document.getElementById("imageList");
   imageListDiv.innerHTML = ""; // 清空列表
@@ -417,9 +417,9 @@ gotoBut.onclick = function () {
   alert("没有找到图片：" + imgNameGoto);
 };
 
-/////////////////////图像绘制��放大///////////
+/////////////////////图像绘制放大///////////
 var image = new Image();
-image.src = "welcome.png";
+image.src = "./welcome.png";
 image.objects = [];
 image.onload = show_origin_img;
 canvas.ondblclick = function (e) {
